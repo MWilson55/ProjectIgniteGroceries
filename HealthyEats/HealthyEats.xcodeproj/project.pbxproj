@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C8FC46F22480EFE00D321ED /* HealthyEats in Resources */ = {isa = PBXBuildFile; fileRef = 5C8FC46E22480EFE00D321ED /* HealthyEats */; };
+		E289DC221CCBC9AF00A48123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289DC211CCBC9AF00A48123 /* AppDelegate.swift */; };
+		E289DC241CCBC9AF00A48123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289DC231CCBC9AF00A48123 /* ViewController.swift */; };
+		E289DC271CCBC9AF00A48123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E289DC251CCBC9AF00A48123 /* Main.storyboard */; };
+		E289DC2C1CCBC9AF00A48123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E289DC2A1CCBC9AF00A48123 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C8FC46E22480EFE00D321ED /* HealthyEats */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HealthyEats; sourceTree = SOURCE_ROOT; };
+		E289DC1E1CCBC9AF00A48123 /* HealthyEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E289DC211CCBC9AF00A48123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E289DC231CCBC9AF00A48123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E289DC261CCBC9AF00A48123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E289DC2B1CCBC9AF00A48123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E289DC2D1CCBC9AF00A48123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E289DC1B1CCBC9AF00A48123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E289DC151CCBC9AF00A48123 = {
+			isa = PBXGroup;
+			children = (
+				E289DC201CCBC9AF00A48123 /* HealthyEats */,
+				E289DC1F1CCBC9AF00A48123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E289DC1F1CCBC9AF00A48123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E289DC1E1CCBC9AF00A48123 /* HealthyEats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E289DC201CCBC9AF00A48123 /* HealthyEats */ = {
+			isa = PBXGroup;
+			children = (
+				E289DC211CCBC9AF00A48123 /* AppDelegate.swift */,
+				E289DC231CCBC9AF00A48123 /* ViewController.swift */,
+				E289DC251CCBC9AF00A48123 /* Main.storyboard */,
+				5C8FC46E22480EFE00D321ED /* HealthyEats */,
+				E289DC2A1CCBC9AF00A48123 /* LaunchScreen.storyboard */,
+				E289DC2D1CCBC9AF00A48123 /* Info.plist */,
+			);
+			path = HealthyEats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E289DC1D1CCBC9AF00A48123 /* HealthyEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E289DC301CCBC9AF00A48123 /* Build configuration list for PBXNativeTarget "HealthyEats" */;
+			buildPhases = (
+				E289DC1A1CCBC9AF00A48123 /* Sources */,
+				E289DC1B1CCBC9AF00A48123 /* Frameworks */,
+				E289DC1C1CCBC9AF00A48123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthyEats;
+			productName = HealthyEats;
+			productReference = E289DC1E1CCBC9AF00A48123 /* HealthyEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E289DC161CCBC9AF00A48123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohit Deshpande";
+				TargetAttributes = {
+					E289DC1D1CCBC9AF00A48123 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = E289DC191CCBC9AF00A48123 /* Build configuration list for PBXProject "HealthyEats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E289DC151CCBC9AF00A48123;
+			productRefGroup = E289DC1F1CCBC9AF00A48123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E289DC1D1CCBC9AF00A48123 /* HealthyEats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E289DC1C1CCBC9AF00A48123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E289DC2C1CCBC9AF00A48123 /* LaunchScreen.storyboard in Resources */,
+				E289DC271CCBC9AF00A48123 /* Main.storyboard in Resources */,
+				5C8FC46F22480EFE00D321ED /* HealthyEats in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E289DC1A1CCBC9AF00A48123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E289DC241CCBC9AF00A48123 /* ViewController.swift in Sources */,
+				E289DC221CCBC9AF00A48123 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E289DC251CCBC9AF00A48123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E289DC261CCBC9AF00A48123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E289DC2A1CCBC9AF00A48123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E289DC2B1CCBC9AF00A48123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E289DC2E1CCBC9AF00A48123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E289DC2F1CCBC9AF00A48123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E289DC311CCBC9AF00A48123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthyEats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenva.HealthyEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E289DC321CCBC9AF00A48123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthyEats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenva.HealthyEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E289DC191CCBC9AF00A48123 /* Build configuration list for PBXProject "HealthyEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E289DC2E1CCBC9AF00A48123 /* Debug */,
+				E289DC2F1CCBC9AF00A48123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E289DC301CCBC9AF00A48123 /* Build configuration list for PBXNativeTarget "HealthyEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E289DC311CCBC9AF00A48123 /* Debug */,
+				E289DC321CCBC9AF00A48123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E289DC161CCBC9AF00A48123 /* Project object */;
+}
